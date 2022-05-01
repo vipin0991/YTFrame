@@ -14,7 +14,7 @@ public class TC2 extends BaseClass {
 	  Thread.sleep(1000);
 	  driver.findElement(By.xpath("//span[text()='Next']")).click();
 	  Thread.sleep(3000);
-	  driver.findElement(By.xpath("//input[@aria-label='Enter your password']")).sendKeys("Test209@)(");
+	  driver.findElement(By.xpath("//input[@aria-label='Enter your password']")).sendKeys("Test987(*&");
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//span[text()='Next']")).click();
 	  Thread.sleep(4000);
