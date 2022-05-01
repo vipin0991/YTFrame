@@ -1,38 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="87082" started-at="2022-05-01T17:20:36 IST" finished-at="2022-05-01T17:22:03 IST">
+  <suite name="Suite" duration-ms="145341" started-at="2022-05-01T22:48:21 IST" finished-at="2022-05-01T22:50:47 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="87082" started-at="2022-05-01T17:20:36 IST" finished-at="2022-05-01T17:22:03 IST">
+    <test name="Test" duration-ms="145341" started-at="2022-05-01T22:48:21 IST" finished-at="2022-05-01T22:50:47 IST">
+      <class name="org.testing.TestScripts.TC3">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC3@5af97850]" name="launch" is-config="true" duration-ms="9819" started-at="2022-05-01T22:49:59 IST" finished-at="2022-05-01T22:50:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="subscription()[pri:0, instance:org.testing.TestScripts.TC3@5af97850]" name="subscription" duration-ms="28213" started-at="2022-05-01T22:50:09 IST" finished-at="2022-05-01T22:50:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- subscription -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC3@5af97850]" name="close" is-config="true" duration-ms="9200" started-at="2022-05-01T22:50:37 IST" finished-at="2022-05-01T22:50:47 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC3 -->
       <class name="org.testing.TestScripts.TC2">
-        <test-method status="PASS" signature="method1()[pri:0, instance:org.testing.TestScripts.TC2@548a102f]" name="method1" is-config="true" duration-ms="9480" started-at="2022-05-01T17:21:23 IST" finished-at="2022-05-01T17:21:32 IST">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC2@17c386de]" name="launch" is-config="true" duration-ms="9953" started-at="2022-05-01T22:49:12 IST" finished-at="2022-05-01T22:49:22 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:org.testing.TestScripts.TC2@548a102f]" name="method2" duration-ms="25944" started-at="2022-05-01T17:21:32 IST" finished-at="2022-05-01T17:21:58 IST">
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="history()[pri:0, instance:org.testing.TestScripts.TC2@17c386de]" name="history" duration-ms="28363" started-at="2022-05-01T22:49:22 IST" finished-at="2022-05-01T22:49:50 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method3()[pri:0, instance:org.testing.TestScripts.TC2@548a102f]" name="method3" is-config="true" duration-ms="5235" started-at="2022-05-01T17:21:58 IST" finished-at="2022-05-01T17:22:03 IST">
+        </test-method> <!-- history -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC2@17c386de]" name="close" is-config="true" duration-ms="9223" started-at="2022-05-01T22:49:50 IST" finished-at="2022-05-01T22:49:59 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method3 -->
+        </test-method> <!-- close -->
       </class> <!-- org.testing.TestScripts.TC2 -->
       <class name="org.testing.TestScripts.TC1">
-        <test-method status="PASS" signature="method1()[pri:0, instance:org.testing.TestScripts.TC1@55040f2f]" name="method1" is-config="true" duration-ms="11384" started-at="2022-05-01T17:20:36 IST" finished-at="2022-05-01T17:20:48 IST">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@400cff1a]" name="launch" is-config="true" duration-ms="10229" started-at="2022-05-01T22:48:21 IST" finished-at="2022-05-01T22:48:32 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:org.testing.TestScripts.TC1@55040f2f]" name="method2" duration-ms="29736" started-at="2022-05-01T17:20:48 IST" finished-at="2022-05-01T17:21:17 IST">
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="trending()[pri:0, instance:org.testing.TestScripts.TC1@400cff1a]" name="trending" duration-ms="31066" started-at="2022-05-01T22:48:32 IST" finished-at="2022-05-01T22:49:03 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method3()[pri:0, instance:org.testing.TestScripts.TC1@55040f2f]" name="method3" is-config="true" duration-ms="5262" started-at="2022-05-01T17:21:17 IST" finished-at="2022-05-01T17:21:23 IST">
+        </test-method> <!-- trending -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@400cff1a]" name="close" is-config="true" duration-ms="9188" started-at="2022-05-01T22:49:03 IST" finished-at="2022-05-01T22:49:12 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- method3 -->
+        </test-method> <!-- close -->
       </class> <!-- org.testing.TestScripts.TC1 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

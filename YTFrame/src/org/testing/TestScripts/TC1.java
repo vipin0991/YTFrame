@@ -1,25 +1,13 @@
 package org.testing.TestScripts;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
+import org.testing.Base.BaseClass;
 import org.testng.annotations.Test;
 
-public class TC1 {
+public class TC1 extends BaseClass {
 	
-	ChromeDriver driver;
-	
-  @BeforeMethod
-  public void method1(){
-	  System.setProperty("webdriver.chrome.driver", "../YTFrame/chromedriver.exe");
-	  driver = new ChromeDriver();
-	  driver.get("https://www.youtube.com/");
-	  driver.manage().window().maximize();
-  }
-  
   @Test
-  public void method2() throws InterruptedException{
+  public void trending() throws InterruptedException{
 	  driver.findElement(By.xpath("//yt-formatted-string[text()='Sign in']")).click();
 	  Thread.sleep(1000);
 	  driver.findElement(By.xpath("//input[@type = 'email']")).sendKeys("testingdata98720");
@@ -29,7 +17,7 @@ public class TC1 {
 	  driver.findElement(By.xpath("//input[@aria-label='Enter your password']")).sendKeys("Test209@)(");
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//span[text()='Next']")).click();
-	  Thread.sleep(4000);
+	  Thread.sleep(6000);
 	  driver.findElement(By.xpath("//yt-formatted-string[text()='Explore']")).click();
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//yt-formatted-string[text()='Trending']")).click();
@@ -40,9 +28,4 @@ public class TC1 {
 	  
   }
 
-  @AfterMethod
-  public void method3() throws InterruptedException {
-	  Thread.sleep(5000);
-	  driver.close();
-  }
 }
