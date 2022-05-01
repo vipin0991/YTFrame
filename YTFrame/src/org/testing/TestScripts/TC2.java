@@ -6,7 +6,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 
-public class TC1 {
+public class TC2 {
 	
 	ChromeDriver driver;
 	
@@ -29,10 +29,8 @@ public class TC1 {
 	  driver.findElement(By.xpath("//input[@aria-label='Enter your password']")).sendKeys("Test209@)(");
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//span[text()='Next']")).click();
-	  Thread.sleep(4000);
-	  driver.findElement(By.xpath("//yt-formatted-string[text()='Explore']")).click();
 	  Thread.sleep(2000);
-	  driver.findElement(By.xpath("//yt-formatted-string[text()='Trending']")).click();
+	  driver.findElement(By.xpath("//a[@title='History']")).click();
 	  Thread.sleep(2000);
 	  driver.findElement(By.xpath("//img[@alt = 'Avatar image']")).click();
 	  Thread.sleep(2000);
@@ -43,6 +41,6 @@ public class TC1 {
   @AfterMethod
   public void method3() throws InterruptedException {
 	  Thread.sleep(5000);
-	  driver.close();
+	 driver.close();
   }
 }

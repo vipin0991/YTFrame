@@ -1,25 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="49584" started-at="2022-05-01T17:03:35 IST" finished-at="2022-05-01T17:04:25 IST">
+  <suite name="Suite" duration-ms="87082" started-at="2022-05-01T17:20:36 IST" finished-at="2022-05-01T17:22:03 IST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="49584" started-at="2022-05-01T17:03:35 IST" finished-at="2022-05-01T17:04:25 IST">
-      <class name="org.testing.TestScripts.TC1">
-        <test-method status="PASS" signature="method1()[pri:0, instance:org.testing.TestScripts.TC1@6ee12bac]" name="method1" is-config="true" duration-ms="10604" started-at="2022-05-01T17:03:35 IST" finished-at="2022-05-01T17:03:46 IST">
+    <test name="Test" duration-ms="87082" started-at="2022-05-01T17:20:36 IST" finished-at="2022-05-01T17:22:03 IST">
+      <class name="org.testing.TestScripts.TC2">
+        <test-method status="PASS" signature="method1()[pri:0, instance:org.testing.TestScripts.TC2@548a102f]" name="method1" is-config="true" duration-ms="9480" started-at="2022-05-01T17:21:23 IST" finished-at="2022-05-01T17:21:32 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method1 -->
-        <test-method status="PASS" signature="method2()[pri:0, instance:org.testing.TestScripts.TC1@6ee12bac]" name="method2" duration-ms="28453" started-at="2022-05-01T17:03:46 IST" finished-at="2022-05-01T17:04:14 IST">
+        <test-method status="PASS" signature="method2()[pri:0, instance:org.testing.TestScripts.TC2@548a102f]" name="method2" duration-ms="25944" started-at="2022-05-01T17:21:32 IST" finished-at="2022-05-01T17:21:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method2 -->
-        <test-method status="PASS" signature="method3()[pri:0, instance:org.testing.TestScripts.TC1@6ee12bac]" name="method3" is-config="true" duration-ms="10488" started-at="2022-05-01T17:04:14 IST" finished-at="2022-05-01T17:04:25 IST">
+        <test-method status="PASS" signature="method3()[pri:0, instance:org.testing.TestScripts.TC2@548a102f]" name="method3" is-config="true" duration-ms="5235" started-at="2022-05-01T17:21:58 IST" finished-at="2022-05-01T17:22:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method3 -->
+      </class> <!-- org.testing.TestScripts.TC2 -->
+      <class name="org.testing.TestScripts.TC1">
+        <test-method status="PASS" signature="method1()[pri:0, instance:org.testing.TestScripts.TC1@55040f2f]" name="method1" is-config="true" duration-ms="11384" started-at="2022-05-01T17:20:36 IST" finished-at="2022-05-01T17:20:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method1 -->
+        <test-method status="PASS" signature="method2()[pri:0, instance:org.testing.TestScripts.TC1@55040f2f]" name="method2" duration-ms="29736" started-at="2022-05-01T17:20:48 IST" finished-at="2022-05-01T17:21:17 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method2 -->
+        <test-method status="PASS" signature="method3()[pri:0, instance:org.testing.TestScripts.TC1@55040f2f]" name="method3" is-config="true" duration-ms="5262" started-at="2022-05-01T17:21:17 IST" finished-at="2022-05-01T17:21:23 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- method3 -->
       </class> <!-- org.testing.TestScripts.TC1 -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
