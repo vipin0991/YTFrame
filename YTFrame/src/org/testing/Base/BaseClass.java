@@ -28,7 +28,7 @@ public class BaseClass {
 		  driver.manage().window().maximize();
 		  
 		  File f = new File("../YTFrame/Object.properties");
-		  //FileInputStream fr = new FileInputStream(f); this can be used too instead of below line
+		  //FileInputStream fr = new FileInputStream(f);
 		  FileReader fr = new FileReader(f);
 		  pr = new Properties();
 		  pr.load(fr);
