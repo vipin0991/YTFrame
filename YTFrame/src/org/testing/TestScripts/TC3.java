@@ -2,6 +2,7 @@ package org.testing.TestScripts;
 
 import java.io.IOException;
 
+import org.testing.Assertions.Assertion1;
 import org.testing.Base.BaseClass;
 import org.testing.Pages.HomePage;
 import org.testing.Pages.LogOut;
@@ -22,6 +23,11 @@ public class TC3 extends BaseClass {
 	  Thread.sleep(2000);
 	  Screenshot.takeScreenshot(driver, "E://screenshots//TC3_Subscription.jpg");
 	  
+	  String actUrl = driver.getCurrentUrl();
+	  
+	  Assertion1.assert_1("https://www.youtube.com/feed/subscriptions", actUrl, "TC3");
+	  
+	  Thread.sleep(2000);
 	  LogOut logout = new LogOut(driver,pr);
 	  logout.signout();
 	  

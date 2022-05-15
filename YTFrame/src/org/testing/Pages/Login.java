@@ -24,7 +24,7 @@ public class Login {
 		  driver.findElement(By.xpath(pr.getProperty("Email"))).sendKeys(uname);
 		  Thread.sleep(1000);
 		  driver.findElement(By.xpath(pr.getProperty("Next"))).click();
-		  Thread.sleep(3000);
+		  Thread.sleep(5000);
 		  driver.findElement(By.xpath(pr.getProperty("Password"))).sendKeys(pass);
 		  Thread.sleep(2000);
 		  driver.findElement(By.xpath(pr.getProperty("Next"))).click();

@@ -18,7 +18,7 @@ public class LogOut {
 	public void signout() throws InterruptedException {
 		  Thread.sleep(2000);
 		  driver.findElement(By.xpath(pr.getProperty("Avatar"))).click();
-		  Thread.sleep(2000);
+		  Thread.sleep(4000);
 		  driver.findElement(By.xpath(pr.getProperty("SignOut"))).click();
 	}
 }

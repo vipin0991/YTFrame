@@ -135,5 +135,6 @@
 	<classpathentry kind="lib" path="C:/Users/vdhiman/Downloads/selenium-java-4.1.3/selenium-safari-driver-4.1.3-sources.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vdhiman/Downloads/selenium-java-4.1.3/selenium-support-4.1.3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/vdhiman/Downloads/selenium-java-4.1.3/selenium-support-4.1.3-sources.jar"/>
+	<classpathentry kind="lib" path="C:/Users/vdhiman/Downloads/log4j-1.2.17/apache-log4j-1.2.17/log4j-1.2.17.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
