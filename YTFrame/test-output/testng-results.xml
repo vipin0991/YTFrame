@@ -1,53 +1,109 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="176442" started-at="2022-05-15T22:24:55 IST" finished-at="2022-05-15T22:27:52 IST">
+  <suite name="Suite1" duration-ms="404543" started-at="2022-05-15T23:40:12 IST" finished-at="2022-05-15T23:46:57 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="176442" started-at="2022-05-15T22:24:55 IST" finished-at="2022-05-15T22:27:52 IST">
-      <class name="org.testing.TestScripts.TC3">
-        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC3@1d548a08]" name="launch" is-config="true" duration-ms="10808" started-at="2022-05-15T22:26:55 IST" finished-at="2022-05-15T22:27:06 IST">
+    <test name="Command line test a429ad95-0b25-4ba9-96cf-d66d5944ae2e" duration-ms="404543" started-at="2022-05-15T23:40:12 IST" finished-at="2022-05-15T23:46:57 IST">
+      <class name="org.testing.TestScripts.TC8">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC8@5faeada1]" name="launch" is-config="true" duration-ms="9528" started-at="2022-05-15T23:46:10 IST" finished-at="2022-05-15T23:46:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="subscription()[pri:0, instance:org.testing.TestScripts.TC3@1d548a08]" name="subscription" duration-ms="40916" started-at="2022-05-15T22:27:06 IST" finished-at="2022-05-15T22:27:46 IST">
+        <test-method status="PASS" signature="library()[pri:0, instance:org.testing.TestScripts.TC8@5faeada1]" name="library" duration-ms="32307" started-at="2022-05-15T23:46:19 IST" finished-at="2022-05-15T23:46:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- library -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC8@5faeada1]" name="close" is-config="true" duration-ms="5365" started-at="2022-05-15T23:46:52 IST" finished-at="2022-05-15T23:46:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC8 -->
+      <class name="org.testing.TestScripts.TC7">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC7@7a1ebcd8]" name="launch" is-config="true" duration-ms="10494" started-at="2022-05-15T23:45:17 IST" finished-at="2022-05-15T23:45:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="WatchLater()[pri:0, instance:org.testing.TestScripts.TC7@7a1ebcd8]" name="WatchLater" duration-ms="33002" started-at="2022-05-15T23:45:28 IST" finished-at="2022-05-15T23:46:01 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- WatchLater -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC7@7a1ebcd8]" name="close" is-config="true" duration-ms="9135" started-at="2022-05-15T23:46:01 IST" finished-at="2022-05-15T23:46:10 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC7 -->
+      <class name="org.testing.TestScripts.TC4">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC4@458c1321]" name="launch" is-config="true" duration-ms="10475" started-at="2022-05-15T23:42:08 IST" finished-at="2022-05-15T23:42:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="playandlike()[pri:0, instance:org.testing.TestScripts.TC4@458c1321]" name="playandlike" duration-ms="37881" started-at="2022-05-15T23:42:19 IST" finished-at="2022-05-15T23:42:57 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playandlike -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC4@458c1321]" name="close" is-config="true" duration-ms="9167" started-at="2022-05-15T23:42:57 IST" finished-at="2022-05-15T23:43:06 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC4 -->
+      <class name="org.testing.TestScripts.TC3">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC3@305fd85d]" name="launch" is-config="true" duration-ms="9833" started-at="2022-05-15T23:41:19 IST" finished-at="2022-05-15T23:41:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="subscription()[pri:0, instance:org.testing.TestScripts.TC3@305fd85d]" name="subscription" duration-ms="34348" started-at="2022-05-15T23:41:29 IST" finished-at="2022-05-15T23:42:03 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- subscription -->
-        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC3@1d548a08]" name="close" is-config="true" duration-ms="5371" started-at="2022-05-15T22:27:46 IST" finished-at="2022-05-15T22:27:52 IST">
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC3@305fd85d]" name="close" is-config="true" duration-ms="5283" started-at="2022-05-15T23:42:03 IST" finished-at="2022-05-15T23:42:08 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- org.testing.TestScripts.TC3 -->
-      <class name="org.testing.TestScripts.TC2">
-        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC2@5ef60048]" name="launch" is-config="true" duration-ms="11056" started-at="2022-05-15T22:25:58 IST" finished-at="2022-05-15T22:26:09 IST">
+      <class name="org.testing.TestScripts.TC6">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC6@34cd072c]" name="launch" is-config="true" duration-ms="10067" started-at="2022-05-15T23:44:02 IST" finished-at="2022-05-15T23:44:12 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="history()[pri:0, instance:org.testing.TestScripts.TC2@5ef60048]" name="history" duration-ms="40576" started-at="2022-05-15T22:26:09 IST" finished-at="2022-05-15T22:26:50 IST">
+        <test-method status="PASS" signature="playandComment()[pri:0, instance:org.testing.TestScripts.TC6@34cd072c]" name="playandComment" duration-ms="55579" started-at="2022-05-15T23:44:12 IST" finished-at="2022-05-15T23:45:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- history -->
-        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC2@5ef60048]" name="close" is-config="true" duration-ms="5224" started-at="2022-05-15T22:26:50 IST" finished-at="2022-05-15T22:26:55 IST">
+        </test-method> <!-- playandComment -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC6@34cd072c]" name="close" is-config="true" duration-ms="9196" started-at="2022-05-15T23:45:08 IST" finished-at="2022-05-15T23:45:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
-      </class> <!-- org.testing.TestScripts.TC2 -->
-      <class name="org.testing.TestScripts.TC1">
-        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@525f1e4e]" name="launch" is-config="true" duration-ms="11227" started-at="2022-05-15T22:24:55 IST" finished-at="2022-05-15T22:25:07 IST">
+      </class> <!-- org.testing.TestScripts.TC6 -->
+      <class name="org.testing.TestScripts.TC5">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC5@11438d26]" name="launch" is-config="true" duration-ms="10001" started-at="2022-05-15T23:43:06 IST" finished-at="2022-05-15T23:43:16 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launch -->
-        <test-method status="PASS" signature="trending()[pri:0, instance:org.testing.TestScripts.TC1@525f1e4e]" name="trending" duration-ms="45619" started-at="2022-05-15T22:25:07 IST" finished-at="2022-05-15T22:25:52 IST">
+        <test-method status="PASS" signature="playandSubscribe()[pri:0, instance:org.testing.TestScripts.TC5@11438d26]" name="playandSubscribe" duration-ms="37246" started-at="2022-05-15T23:43:16 IST" finished-at="2022-05-15T23:43:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- playandSubscribe -->
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC5@11438d26]" name="close" is-config="true" duration-ms="9157" started-at="2022-05-15T23:43:53 IST" finished-at="2022-05-15T23:44:02 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- org.testing.TestScripts.TC5 -->
+      <class name="org.testing.TestScripts.TC1">
+        <test-method status="PASS" signature="launch()[pri:0, instance:org.testing.TestScripts.TC1@131276c2]" name="launch" is-config="true" duration-ms="15408" started-at="2022-05-15T23:40:12 IST" finished-at="2022-05-15T23:40:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="trending()[pri:0, instance:org.testing.TestScripts.TC1@131276c2]" name="trending" duration-ms="45602" started-at="2022-05-15T23:40:28 IST" finished-at="2022-05-15T23:41:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- trending -->
-        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@525f1e4e]" name="close" is-config="true" duration-ms="5593" started-at="2022-05-15T22:25:52 IST" finished-at="2022-05-15T22:25:58 IST">
+        <test-method status="PASS" signature="close()[pri:0, instance:org.testing.TestScripts.TC1@131276c2]" name="close" is-config="true" duration-ms="5408" started-at="2022-05-15T23:41:13 IST" finished-at="2022-05-15T23:41:19 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- org.testing.TestScripts.TC1 -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Command line test a429ad95-0b25-4ba9-96cf-d66d5944ae2e -->
+  </suite> <!-- Suite1 -->
 </testng-results>
