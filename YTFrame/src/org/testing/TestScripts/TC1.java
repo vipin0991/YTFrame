@@ -21,7 +21,7 @@ public class TC1 extends BaseClass {
 	  
 	  Login login = new Login(driver, pr);
 	  login.signin("testingdata98720", "Test987(*&");
-	  
+	  //Will call Utilities LogsCapture class method using classname.method name since methods are static in Utilities package classes
 	  LogsCapture.takeLogs("TC1", "Login Successful for TC1");
 	  
 	  
@@ -31,13 +31,15 @@ public class TC1 extends BaseClass {
 	  System.out.println(hr.toString());*/
 	  
 	  Thread.sleep(2000);
+	  //Will call Utilities screenshot class method using classname.method name since methods are static in Utilities package classes
 	  Screenshot.takeScreenshot(driver, "E://screenshots//TC1_Login.jpg");
 	  
 	  HomePage hp = new HomePage(driver, pr);
 	  hp.clickTrending();
 	  
 	  String actUrl = driver.getCurrentUrl();
-	  //Hard Assertion
+	  
+	  //Hard Assertion Use.
 	  Assert.assertEquals(actUrl, "https://www.youtube.com/feed/trending?bp=6gQJRkVleHBsb3Jl"," Hard Assertion failed");
 	  	  
 	  Thread.sleep(2000);

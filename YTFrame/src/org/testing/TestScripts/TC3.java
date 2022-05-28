@@ -25,6 +25,7 @@ public class TC3 extends BaseClass {
 	  
 	  String actUrl = driver.getCurrentUrl();
 	  
+	  //Call soft assertion classes using class name.method name since methods are static in assertion class
 	  Assertion1.assert_1("https://www.youtube.com/feed/subscriptions", actUrl, "TC3");
 	  
 	  Thread.sleep(2000);
